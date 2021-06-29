@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "[Your Terraform cloud Oranization Name]"
+    organization = "circi-test"
 
     workspaces {
-      name = "[Replace with your Terraform Cloud Workspace]"
+      name = "arm-aws-ecs"
     }
   }
 }
